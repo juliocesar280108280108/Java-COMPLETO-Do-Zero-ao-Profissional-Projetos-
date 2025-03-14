@@ -2,10 +2,10 @@ package classe;
 
 public class data {
     public static void main(String[] args) {
-        ClasseDataV d1 = new ClasseDataV();
+        Dataa d1 = new Dataa();
 
 
-        var d2 = new ClasseDataV( 1 , 1 , 1970);
+        var d2 = new Dataa( 1 , 1 , 1970);
 
         String dataFormada1 = d1.obterDataFormatada();
 

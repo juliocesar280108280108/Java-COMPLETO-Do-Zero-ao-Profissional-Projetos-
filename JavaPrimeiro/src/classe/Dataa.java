@@ -1,17 +1,17 @@
 package classe;
 
-public class ClasseDataV {
+public class Dataa {
     int dia;
     int mes;
     int ano;
 
-    ClasseDataV(){
+    Dataa(){
      dia = 1; 
      mes = 1;
      ano = 1970;
     }
 
-    ClasseDataV(int diaInicial, int mesInicial, int anoInicial){
+    Dataa(int diaInicial, int mesInicial, int anoInicial){
         dia = diaInicial;
         mes = mesInicial;
         ano = anoInicial;
@@ -19,7 +19,7 @@ public class ClasseDataV {
     }
 
     String obterDataFormatada(){
-        return String.format("%d%f%d", dia, mes , ano);
+        return String.format("%d/%d/%d", dia, mes , ano);
     }
         
     
