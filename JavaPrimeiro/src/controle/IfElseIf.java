@@ -32,9 +32,6 @@ public class IfElseIf {
        
 
 
-        
-
-
 
 
         entrada.close();
