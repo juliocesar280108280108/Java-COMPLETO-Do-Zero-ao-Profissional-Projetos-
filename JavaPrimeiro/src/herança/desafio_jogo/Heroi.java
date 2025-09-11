@@ -1,4 +1,4 @@
-package herança;
+package herança.desafio_jogo;
 
 public class Heroi extends Jogador {
     boolean atacar(Jogador oponente){

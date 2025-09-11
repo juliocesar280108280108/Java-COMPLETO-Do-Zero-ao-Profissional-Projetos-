@@ -1,4 +1,4 @@
-package herança;
+package herança.desafio_jogo;
 
 public class Jogador {
     int vida = 100;

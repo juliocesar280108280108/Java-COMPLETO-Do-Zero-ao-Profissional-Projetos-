@@ -1,4 +1,4 @@
-package herança;
+package herança.desafio_jogo;
 
 public class Jogo {
     public static void main(String[] args) {
