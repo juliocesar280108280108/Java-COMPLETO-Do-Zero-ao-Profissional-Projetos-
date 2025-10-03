@@ -11,7 +11,7 @@ public class DesafioLambdas {
         Function<Produto, Double> precoFinal = produto -> produto.preco *(1- produto.desconto);
         UnaryOperator<Double> imposto = preco -> preco >= 2500 ? preco * 1.085 : preco;
         UnaryOperator<Double> frete = preco -> preco >= 3000 ? preco + 100 : preco + 50; 
-       UnaryOperator<Double> arredondar = preco -> new BigDecimal(preco).setScale(4, RoundingMode.HALF_UP).doubleValue();
+        UnaryOperator<Double> arredondar = preco -> new BigDecimal(preco).setScale(2, RoundingMode.HALF_UP).doubleValue(); //para arredondar valor
 
          Function<Double, String> formatar = preco -> ("R$:" + preco).replace(".", ",");
 
